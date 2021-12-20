@@ -1,0 +1,19 @@
+{
+  "name": "alt-tag",
+  "version": "1.0.0",
+  "author": {
+    "name": "Florian Schleich",
+    "email": "florian.schleich@gmail.com"
+  },
+  "license": "MIT",
+  "source": "src/index.js",
+  "main": "dist/main.js",
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build",
+    "serve": "parcel serve src/index.html --open"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  }
+}
